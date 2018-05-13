@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="Daffodil"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/bs/CLionProjects/Daffodil/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/bs/CLionProjects/Daffodil/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/bs/CLionProjects/Daffodil/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/bs/CLionProjects/Daffodil/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/bs/CLionProjects/Daffodil/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/bs/CLionProjects/Daffodil/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/bs/CLionProjects/Daffodil/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/bs/CLionProjects/Daffodil/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/bs/CLionProjects/Daffodil/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/bs/CLionProjects/Daffodil/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/bs/CLionProjects/Daffodil/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/bs/CLionProjects/Daffodil/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/bs/CLionProjects/Daffodil/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/bs/CLionProjects/Daffodil/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/bs/CLionProjects/Daffodil/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Daffodil">
+				<Option output="/home/bs/CLionProjects/Daffodil/cmake-build-debug/libDaffodil.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/bs/CLionProjects/Daffodil/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/bs/CLionProjects/Daffodil/cmake-build-debug/Makefile&quot;  VERBOSE=1 Daffodil"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/bs/CLionProjects/Daffodil/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/bs/CLionProjects/Daffodil/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/bs/CLionProjects/Daffodil/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Daffodil/fast">
+				<Option output="/home/bs/CLionProjects/Daffodil/cmake-build-debug/libDaffodil.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/bs/CLionProjects/Daffodil/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/bs/CLionProjects/Daffodil/cmake-build-debug/Makefile&quot;  VERBOSE=1 Daffodil/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/bs/CLionProjects/Daffodil/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/bs/CLionProjects/Daffodil/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/bs/CLionProjects/Daffodil/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/bs/CLionProjects/Daffodil/Algo.h">
+			<Option target="Daffodil"/>
+		</Unit>
+		<Unit filename="/home/bs/CLionProjects/Daffodil/CompileTImeComputations.h">
+			<Option target="Daffodil"/>
+		</Unit>
+		<Unit filename="/home/bs/CLionProjects/Daffodil/Concepts.h">
+			<Option target="Daffodil"/>
+		</Unit>
+		<Unit filename="/home/bs/CLionProjects/Daffodil/Deleter.h">
+			<Option target="Daffodil"/>
+		</Unit>
+		<Unit filename="/home/bs/CLionProjects/Daffodil/Dementor.h">
+			<Option target="Daffodil"/>
+		</Unit>
+		<Unit filename="/home/bs/CLionProjects/Daffodil/DesignPatterns.h">
+			<Option target="Daffodil"/>
+		</Unit>
+		<Unit filename="/home/bs/CLionProjects/Daffodil/MetanabolPointer.h">
+			<Option target="Daffodil"/>
+		</Unit>
+		<Unit filename="/home/bs/CLionProjects/Daffodil/ParallelIterator.h">
+			<Option target="Daffodil"/>
+		</Unit>
+		<Unit filename="/home/bs/CLionProjects/Daffodil/ParametrPack.h">
+			<Option target="Daffodil"/>
+		</Unit>
+		<Unit filename="/home/bs/CLionProjects/Daffodil/TypesPack.h">
+			<Option target="Daffodil"/>
+		</Unit>
+		<Unit filename="/home/bs/CLionProjects/Daffodil/WinstrolPointer.h">
+			<Option target="Daffodil"/>
+		</Unit>
+		<Unit filename="/home/bs/CLionProjects/Daffodil/Wrappers.h">
+			<Option target="Daffodil"/>
+		</Unit>
+		<Unit filename="/home/bs/CLionProjects/Daffodil/library.cpp">
+			<Option target="Daffodil"/>
+		</Unit>
+		<Unit filename="/home/bs/CLionProjects/Daffodil/library.h">
+			<Option target="Daffodil"/>
+		</Unit>
+		<Unit filename="/home/bs/CLionProjects/Daffodil/make_ducounter.h">
+			<Option target="Daffodil"/>
+		</Unit>
+		<Unit filename="/home/bs/CLionProjects/Daffodil/print_elements.h">
+			<Option target="Daffodil"/>
+		</Unit>
+		<Unit filename="/home/bs/CLionProjects/Daffodil/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

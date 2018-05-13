@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/bs/CLionProjects/CrystalAmpoule/library.cpp
+library.h
+/home/bs/CLionProjects/CrystalAmpoule/library.h
+iostream
+-
+
+/home/bs/CLionProjects/CrystalAmpoule/library.h
+

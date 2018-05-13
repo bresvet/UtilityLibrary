@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC -g  -shared -Wl,-soname,libCrystalAmpoule.so -o libCrystalAmpoule.so CMakeFiles/CrystalAmpoule.dir/library.cpp.o 

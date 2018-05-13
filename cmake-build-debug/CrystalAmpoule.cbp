@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="CrystalAmpoule"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/bs/CLionProjects/CrystalAmpoule/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/bs/CLionProjects/CrystalAmpoule/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/bs/CLionProjects/CrystalAmpoule/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/bs/CLionProjects/CrystalAmpoule/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/bs/CLionProjects/CrystalAmpoule/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/bs/CLionProjects/CrystalAmpoule/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/bs/CLionProjects/CrystalAmpoule/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/bs/CLionProjects/CrystalAmpoule/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/bs/CLionProjects/CrystalAmpoule/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/bs/CLionProjects/CrystalAmpoule/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/bs/CLionProjects/CrystalAmpoule/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/bs/CLionProjects/CrystalAmpoule/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/bs/CLionProjects/CrystalAmpoule/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/bs/CLionProjects/CrystalAmpoule/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/bs/CLionProjects/CrystalAmpoule/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="CrystalAmpoule">
+				<Option output="/home/bs/CLionProjects/CrystalAmpoule/cmake-build-debug/libCrystalAmpoule.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/bs/CLionProjects/CrystalAmpoule/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/bs/CLionProjects/CrystalAmpoule/cmake-build-debug/Makefile&quot;  VERBOSE=1 CrystalAmpoule"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/bs/CLionProjects/CrystalAmpoule/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/bs/CLionProjects/CrystalAmpoule/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/bs/CLionProjects/CrystalAmpoule/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="CrystalAmpoule/fast">
+				<Option output="/home/bs/CLionProjects/CrystalAmpoule/cmake-build-debug/libCrystalAmpoule.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/bs/CLionProjects/CrystalAmpoule/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/bs/CLionProjects/CrystalAmpoule/cmake-build-debug/Makefile&quot;  VERBOSE=1 CrystalAmpoule/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/bs/CLionProjects/CrystalAmpoule/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/bs/CLionProjects/CrystalAmpoule/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/bs/CLionProjects/CrystalAmpoule/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/bs/CLionProjects/CrystalAmpoule/Algo.h">
+			<Option target="CrystalAmpoule"/>
+		</Unit>
+		<Unit filename="/home/bs/CLionProjects/CrystalAmpoule/CheckingPointer.h">
+			<Option target="CrystalAmpoule"/>
+		</Unit>
+		<Unit filename="/home/bs/CLionProjects/CrystalAmpoule/CompileTImeComputations.h">
+			<Option target="CrystalAmpoule"/>
+		</Unit>
+		<Unit filename="/home/bs/CLionProjects/CrystalAmpoule/Concepts.h">
+			<Option target="CrystalAmpoule"/>
+		</Unit>
+		<Unit filename="/home/bs/CLionProjects/CrystalAmpoule/Deleter.h">
+			<Option target="CrystalAmpoule"/>
+		</Unit>
+		<Unit filename="/home/bs/CLionProjects/CrystalAmpoule/Dementor.h">
+			<Option target="CrystalAmpoule"/>
+		</Unit>
+		<Unit filename="/home/bs/CLionProjects/CrystalAmpoule/DesignPatterns.h">
+			<Option target="CrystalAmpoule"/>
+		</Unit>
+		<Unit filename="/home/bs/CLionProjects/CrystalAmpoule/MetanabolPointer.h">
+			<Option target="CrystalAmpoule"/>
+		</Unit>
+		<Unit filename="/home/bs/CLionProjects/CrystalAmpoule/ParallelIterator.h">
+			<Option target="CrystalAmpoule"/>
+		</Unit>
+		<Unit filename="/home/bs/CLionProjects/CrystalAmpoule/ParametrPack.h">
+			<Option target="CrystalAmpoule"/>
+		</Unit>
+		<Unit filename="/home/bs/CLionProjects/CrystalAmpoule/SignalSystem.h">
+			<Option target="CrystalAmpoule"/>
+		</Unit>
+		<Unit filename="/home/bs/CLionProjects/CrystalAmpoule/TypesPack.h">
+			<Option target="CrystalAmpoule"/>
+		</Unit>
+		<Unit filename="/home/bs/CLionProjects/CrystalAmpoule/UniversalThread.h">
+			<Option target="CrystalAmpoule"/>
+		</Unit>
+		<Unit filename="/home/bs/CLionProjects/CrystalAmpoule/WinstrolPointer.h">
+			<Option target="CrystalAmpoule"/>
+		</Unit>
+		<Unit filename="/home/bs/CLionProjects/CrystalAmpoule/Wrappers.h">
+			<Option target="CrystalAmpoule"/>
+		</Unit>
+		<Unit filename="/home/bs/CLionProjects/CrystalAmpoule/library.cpp">
+			<Option target="CrystalAmpoule"/>
+		</Unit>
+		<Unit filename="/home/bs/CLionProjects/CrystalAmpoule/library.h">
+			<Option target="CrystalAmpoule"/>
+		</Unit>
+		<Unit filename="/home/bs/CLionProjects/CrystalAmpoule/make_ducounter.h">
+			<Option target="CrystalAmpoule"/>
+		</Unit>
+		<Unit filename="/home/bs/CLionProjects/CrystalAmpoule/print_elements.h">
+			<Option target="CrystalAmpoule"/>
+		</Unit>
+		<Unit filename="/home/bs/CLionProjects/CrystalAmpoule/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
